@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-//#include <conio.h>
+//#include <conio.h> //Выключить, если работаем под Unix
 using namespace std;
 
 int checkString(){ //Функция проверки на ввод букв

@@ -37,7 +37,7 @@ void l1() {
 	a=checkString();
 	b=checkString();
 
-	min = (a<b) ? a:b;											
+	min = (a<b) ? a:b;						
 	max = (a>b) ? a:b;
 
 	b = min*max*2;

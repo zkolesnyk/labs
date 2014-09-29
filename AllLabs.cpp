@@ -20,8 +20,7 @@ int checkString(){ //Функция проверки на ввод букв
 
 void spacer(){ //Spacer
 	int n;
-	for (n=1; n<=80; n++)
-	cout << "-";
+	for (n=1; n<=80; n++) cout << "-";
 }
 
 void l1() {

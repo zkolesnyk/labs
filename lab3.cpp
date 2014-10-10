@@ -2,7 +2,8 @@
 using namespace std;
 
 int digitSum(int x,int number){
-	int curr,next,exp;
+	int curr,next;
+	unsigned int exp;
 
 	exp=pow(10,(double)(x-1));
 	if (exp==0) return 0;
@@ -18,7 +19,8 @@ void l3() {
 	cout << "Lab #3" << endl;
 	spacer();
 
-	int numberLength,number,digitsSum;
+	int numberLength,digitsSum;
+	long int number;
 
 	cout<<"Enter the number: ";
 	cin>>number;

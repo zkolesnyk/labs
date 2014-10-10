@@ -30,6 +30,7 @@ void l2() {
 				cout << "Max*3 = " << max << endl << "Min^2 = " << min;
 
 				cout << "\n\nThe end." << endl;
+				quit();
 			break;	
 			}	
 	}

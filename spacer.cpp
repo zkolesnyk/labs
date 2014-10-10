@@ -1,4 +1,4 @@
-nclude "header.h"
+#include "header.h"
 using namespace std;
 
 void spacer(){ //Spacer

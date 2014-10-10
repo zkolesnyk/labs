@@ -25,4 +25,5 @@ void l1() {
 	cout << min << "*" << max << "*" << 2 << "=" << b;
 
 	cout << "\n\nThe end." << endl;
+	quit();
 }

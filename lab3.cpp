@@ -1,16 +1,9 @@
 #include "header.h"
 using namespace std;
-
-int digitSum(int x,int number){
-	int curr,next;
-	unsigned int exp;
-
-	exp=pow(10,(double)(x-1));
-	if (exp==0) return 0;
-	curr=number/exp;
-	next=number%exp;
-
-	return curr+digitSum((x-1),next);
+	
+int digitSum(long long int number){
+if (number!=0) return number%10 + digitSum(number/10);
+else return 0;
 }
 
 void l3() {
@@ -19,14 +12,12 @@ void l3() {
 	cout << "Lab #3" << endl;
 	spacer();
 
-	int numberLength,digitsSum;
-	long int number;
+	long long int number;
 
 	cout<<"Enter the number: ";
 	cin>>number;
-	numberLength=length(number);
 	
-	cout<<"The sum of digits equal to: "<<digitSum(numberLength,number)<<endl;
+	cout<<"The sum of digits equal to: "<<digitSum(number)<<endl;
 	cout << "\n\nThe end." << endl;	
 	quit();
 	

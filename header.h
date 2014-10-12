@@ -9,6 +9,5 @@ void l3 (void);
 //Functions in Labs
 void spacer (void);
 int checkString ();
-int length(int);
-int digitSum(int,int);
+int digitSum(long long int);
 int quit();

@@ -12,7 +12,6 @@ int main() {
 		cout << "Lab`s available: 1, 2, 3";
 		cout << "\nEnter the number of lab or 0 to exit the program: ";
 		int x = checkString();
-int x_2;
 
 		switch (x) {
 			case 0: 

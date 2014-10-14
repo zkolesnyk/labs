@@ -1,7 +1,7 @@
 #include "header.h"
 using namespace std;
 	
-int digitSum(long long int number){
+int digitSum(long long int number) {
 if (number!=0) return number%10 + digitSum(number/10);
 else return 0;
 }

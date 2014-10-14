@@ -5,6 +5,7 @@
 void l1 (void);
 void l2 (void);
 void l3 (void);
+void l4 (void);
 
 //Functions in Labs
 void spacer (void);

@@ -9,7 +9,7 @@ int quit(){
 		cin>>number;
 		if (number=="e"||number=="exit") pthread_exit(0); 
 		if (number=="c"||number=="continue") return 0;
-		cout<<"Incorrect! Retry: ";
+		cout<<"Incorrect! Try again: ";
 	}
 
 }

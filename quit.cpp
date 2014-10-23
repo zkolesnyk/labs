@@ -11,6 +11,6 @@ int quit(){
 		if (number=="c"||number=="continue") return 0;
 		cout<<"Incorrect! Try again: ";
 	}
-    return 0; //test
+    return 0;
 }
 

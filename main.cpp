@@ -29,6 +29,9 @@ int main() {
 			case 4:
 				l4();
 				break;
+            case 5:
+                l5();
+                break;
 			default: 
 				spacer();
 				cout << "I`m sorry, but this lab is not available. Try again." << endl;

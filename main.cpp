@@ -22,10 +22,10 @@ int main() {
 				break;
 			case 2:
 				l2();
-				break; 
+				break;
 			case 3:
 				l3();
-				break; 
+				break;
 			case 4:
 				l4();
 				break;

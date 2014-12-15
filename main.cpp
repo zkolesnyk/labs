@@ -32,7 +32,10 @@ int main() {
             case 5:
                 l5();
                 break;
-			default: 
+            case 6:
+                l6();
+                break;
+			default:
 				spacer();
 				cout << "I`m sorry, but this lab is not available. Try again." << endl;
 				break;

@@ -2,7 +2,6 @@
 using namespace std;
 
 void l6() {
-    
     spacer();
     cout << "Lab #6" << endl;
     spacer();

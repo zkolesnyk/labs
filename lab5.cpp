@@ -3,6 +3,10 @@
 using namespace std;
 
 void l5() {
+    spacer();
+    cout << "Lab #5" << endl;
+    spacer();
+    
     ifstream in("input.txt");
     
     if(!in) {
@@ -12,21 +16,21 @@ void l5() {
     in >> n >> m;
     
     // New array
-    int** mat = new int* [n];
+    int** array = new int* [n];
     for(int i = 0; i < n; ++i)
-        mat[i] = new int[m];
+        array[i] = new int[m];
     
     // Read array
     for(int i = 0; i < n; ++i)
         for(int j = 0; j < m; ++j)
-            in >> mat[i][j];
+            in >> array[i][j];
     
     double sum = 0;
     
     // The aum of array elements
     for(int i = 0; i < n; ++i)
         for(int j = 0; j < m; ++j)
-            sum += mat[i][j];
+            sum += array[i][j];
     
     // Open file
     ofstream out("tst4.out");
@@ -38,7 +42,7 @@ void l5() {
     
     for(int i = 0; i < n; ++i, out << endl)
         for(int j = 0; j < m; ++j)
-            out << '\t' << mat[i][j] / sum;
+            out << '\t' << array[i][j] / sum;
     
     cout << "\n\nThe end." << endl;
     quit();

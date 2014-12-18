@@ -1,4 +1,5 @@
 #include "header.h"
+#include <sstream>
 using namespace std;
 
 void l6() {
@@ -7,7 +8,7 @@ void l6() {
     spacer();
     
     string text;
-    write("Enter string: ");
+    cout<<"Enter string: ";
     cin.ignore();
     getline(cin, text);
     
@@ -15,7 +16,7 @@ void l6() {
     
     bool a = false;
     
-    write("Result string: ");
+    cout<<"Result string: ";
     
     int i = 0;
     while(i<10000 && g_arr[i] != "") {
@@ -30,16 +31,22 @@ void l6() {
         i++;
     }
     
-    if(!a)
-        write("\nNote that \"a\" was not found in string you entered");
+    if(!a) cout<<"\nNote that \"a\" was not found in string you entered";
     
-    write("\n");
-    
-    spacer(false);
+    cout<<"\n";
     
     for(int x=0; x < 10000; ++x)
         g_arr[x] = "";
     
     cout << "\n\nThe end." << endl;
     quit();
+}
+
+void explode(string line) {
+    long i = 0;
+    stringstream ssin(line);
+    while (ssin.good()){
+        ssin >> g_arr[i];
+        ++i;
+    }
 }

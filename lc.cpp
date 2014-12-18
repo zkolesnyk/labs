@@ -46,7 +46,7 @@ LC* addBefore(LC* list, TE E1, TE E) {
         list->elem = E1;
         return list;
     }
-    for (LC* tmp; list->next != 0; list = list->next) {
+    for (; list->next != 0; list = list->next) {
         if (areEqual(list->next->elem, E)) {
             LC* tmp = new LC;
             tmp->elem = E1;
@@ -114,14 +114,14 @@ LC* addSorted(LC* list, TE E1) {
 }
 
 void writeToFile(LC* list) {
-    ofstream file("list.txt");
-    for (list; list != 0; list = list->next)
+    ofstream file("/Users/Kolesnyk/labs/list.txt");
+    for (; list != 0; list = list->next)
         file << list->elem << " ";
 }
 
 void displayList(LC* list) {
     if (list == 0) return;
-    for (list; list->next != 0; list = list->next)
+    for (; list->next != 0; list = list->next)
         cout << "[" << list->elem << "]->";
     cout << "[" << list->elem << "]\n\n";
 }

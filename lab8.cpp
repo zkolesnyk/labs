@@ -2,10 +2,10 @@
 #include "lc.h"
 using namespace std;
 
-int main() {
+void l8() {
 
     spacer();
-    cout << "Lab #8" << endl;
+    cout << "\nLab #8" << endl;
     spacer();
     cout << endl;
 
@@ -30,7 +30,7 @@ int main() {
     cout << "See your list ";
     displayList(list);
 
-    cout << "Enter the element you want to put before the " << firstElement << endl;
+    cout << "Enter the element you want to put before the " << firstElement <<": ";
     char * beforeE = new char[100];
     cin >> beforeE;
     list = addBefore(list, beforeE, firstElement);
@@ -38,7 +38,7 @@ int main() {
     cout << "Now the list looks like ";
     displayList(list);
 
-    cout << "Enter two elements you want to put before the last element" << endl;
+    cout << "Enter two elements you want to put before the last element" << ": ";
     char * beforeL1 = new char[100];
     char * beforeL2 = new char[100];
     cin >> beforeL1 >> beforeL2;
@@ -47,7 +47,7 @@ int main() {
     cout << "The list is ";
     displayList(list);
 
-    cout << "Replacing end with start" << endl;
+    cout << "Place end to start" << endl;
     list = endToStart(list);
 
     cout << "Final version of your list: ";
@@ -66,5 +66,4 @@ int main() {
 
     cout << "\n\nThe end." << endl;
     quit();
-    return 0;
 }

@@ -5,7 +5,7 @@ void l1() {
 	float a, b, min, max;
     
 	spacer();
-	cout << "Lab #1" << endl;
+	cout << "\nLab #1" << endl;
 	spacer();
 
 	cout << "Enter two numbers:\n";

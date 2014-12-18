@@ -5,7 +5,7 @@ void l4() {
     int n;
 
 	spacer();
-	cout << "Lab #4" << endl;
+	cout << "\nLab #4" << endl;
 	spacer();
 
 	cout << "Enter the integer value: ";

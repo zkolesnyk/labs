@@ -9,7 +9,7 @@ void l2() {
 	spacer();
 
 	while (true) {
-		cout << "Vvedite 2 raznyh po znaku chisla: ";
+		cout << "\nVvedite 2 raznyh po znaku chisla: ";
 		a = checkString();
 		b = checkString();
 		min = (a<b) ? a:b;
@@ -24,7 +24,7 @@ void l2() {
             max = max*3;
             min = min*min;
 
-            cout << "Max*3 = " << max << endl << "Min^2 = " << min;
+            cout << "\nMax*3 = " << max << endl << "Min^2 = " << min;
 
             cout << "\n\nThe end." << endl;
             quit();

@@ -8,7 +8,7 @@ void l3() {
 	cout << "\nLab #3" << endl;
 	spacer();
 
-	cout<<"Enter the number: ";
+	cout<<"\nEnter the number: ";
 	cin>>number;
 	cout<<"The sum of digits equal to: "<<digitSum(number)<<endl;
     

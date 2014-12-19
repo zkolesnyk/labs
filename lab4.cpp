@@ -8,7 +8,7 @@ void l4() {
 	cout << "\nLab #4" << endl;
 	spacer();
 
-	cout << "Enter the integer value: ";
+	cout << "\nEnter the integer value: ";
 	n=checkString();
 	int* mass = new int[n];
 	for (int i=0; i < n; i++) {

@@ -9,7 +9,7 @@ using namespace std;
 int main() {
 	while (true) {
 		spacer();
-		cout << "\nLab`s available: 8";
+		cout << "\nLab`s available:1, 2, 3, 4, 8";
 		cout << "\nEnter the number of lab or 0 to exit the program: ";
 		int x = checkString();
 
@@ -27,11 +27,11 @@ int main() {
 				l3();
 				break;
 			case 4:
-          l4();
+                l4();
 				break;
-        case 8:
-          l8();
-          break;
+            case 8:
+                l8();
+                break;
 			default:
 				spacer();
 				cout << "I`m sorry, but this lab is not available. Try again." << endl;

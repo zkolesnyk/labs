@@ -8,7 +8,7 @@ void l1() {
 	cout << "\nLab #1" << endl;
 	spacer();
 
-	cout << "Enter two numbers:\n";
+	cout << "\nEnter two numbers:\n";
 	a = checkString();
 	b = checkString();
 	min = (a<b) ? a:b;						

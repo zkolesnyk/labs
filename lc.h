@@ -1,3 +1,5 @@
+#include <iostream>
+
 typedef char* TE;
 struct LC {
     TE elem;

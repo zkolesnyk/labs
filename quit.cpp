@@ -1,5 +1,5 @@
 #include "header.h"
-#include <pthread.h>
+
 using namespace std;
 
 int quit(){ 

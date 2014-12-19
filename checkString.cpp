@@ -1,8 +1,7 @@
 #include "header.h"
-#include <string>
 using namespace std;
 
-int checkString() { //Функция проверки на ввод букв
+int checkString() {
 	int number;
 		string clearString;
 		while (!(cin >> number)) {	
